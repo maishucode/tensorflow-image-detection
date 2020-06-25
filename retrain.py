@@ -158,7 +158,8 @@ def create_image_lists(image_dir, testing_percentage, validation_percentage):
     elif len(file_list) > MAX_NUM_IMAGES_PER_CLASS:
       print('WARNING: Folder {} has more than {} images. Some images will '
             'never be selected.'.format(dir_name, MAX_NUM_IMAGES_PER_CLASS))
-    label_name = re.sub(r'[^a-z0-9]+', ' ', dir_name.lower())
+    #label_name = re.sub(r'[^a-z0-9]+', ' ', dir_name.lower()) #commen out this line because it doesn't work with Chinese folder name.
+    label_name = dir_name
     training_images = []
     testing_images = []
     validation_images = []
