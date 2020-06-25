@@ -1,3 +1,11 @@
+# Fork说明
+为支持中文，本repository修改了retrain.py。如下所示，注释掉了对label_name的处理，直接使用dir_name做label_name。
+```
+    #label_name = re.sub(r'[^a-z0-9]+', ' ', dir_name.lower())
+    label_name = dir_name
+```
+
+
 <img src="https://github.com/ArunMichaelDsouza/tensorflow-image-detection/raw/master/icon.png" width="250" height="auto" alt="tensorflow-image-detection icon"/>
 
 # tensorflow-image-detection <span class="badge-patreon"><a href="https://www.patreon.com/arunmichaeldsouza" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-blue.svg" alt="Patreon donate button" /></a></span>
