@@ -5,6 +5,13 @@
     label_name = dir_name
 ```
 
+相关资源下载：
+
+1. tensorflow 1.15.3
+2. training dataset
+
+链接:https://pan.baidu.com/s/1ouM5tVkPlKxMvxoh1yBH8w  密码:fmrd
+
 
 <img src="https://github.com/ArunMichaelDsouza/tensorflow-image-detection/raw/master/icon.png" width="250" height="auto" alt="tensorflow-image-detection icon"/>
 
